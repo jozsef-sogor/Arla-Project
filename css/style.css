@@ -249,3 +249,41 @@ main {
     justify-content: space-around;
     width: 80%;
 }
+
+/* styling for navigation in the profile */
+
+.profile-nav {
+  display: flex;
+  margin-top: 1em;
+  justify-content: space-around;
+  background-color: white;
+  padding: .3em;
+
+}
+
+.profile-nav>div {
+  display: flex;
+}
+
+.profile-nav>div> h2 {
+padding-left: 2em;
+}
+
+.profile-nav>div>img {
+  width: 8%;
+
+}
+
+.profile-nav>div>h2 {
+  font-size: 1em;
+  text-align: center;
+}
+
+.profile-nav>div {
+  width: 30%;
+  border-right: 1px solid black;
+}
+
+.settings {
+  border-right: none !important;
+}
