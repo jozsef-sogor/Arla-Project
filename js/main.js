@@ -1,5 +1,6 @@
 "use strict";
 
+<<<<<<< HEAD
 M.AutoInit();
 //var instance = M.Tabs.init(el, options);
 const _db = firebase.firestore();
@@ -30,6 +31,33 @@ let setDefaultPage = () => {
     showPage(page);
 }
 setDefaultPage();
+=======
+
+// // Navigation
+// let hideAllPages = () => {
+//     let pages = document.querySelectorAll(".page");
+//     for (let page of pages) {
+//         page.style.display = "none";
+//     }
+// }
+// // show page or tab
+// let showPage = pageId => {
+//     hideAllPages();
+//     document.querySelector(`#${pageId}`).style.display = "block";
+//     location.href = `#${pageId}`;
+//     setActiveTab(pageId);
+//     // showLoader(500);
+// }
+// // set default page
+// let setDefaultPage = () => {
+//     let page = "home";
+//     if (location.hash) {
+//         page = location.hash.slice(1);
+//     }
+//     showPage(page);
+// }
+// setDefaultPage();
+>>>>>>> parent of 485fe6a... Profile pag navigation
 
 // function setActiveTab(pageId) {
 //     let pages = document.querySelectorAll("nav a");
@@ -38,8 +66,8 @@ setDefaultPage();
 //         page.classList.add("active");
 //       } else {
 //         page.classList.remove("active");
-//       } Let me try something
-//do you wanna talk on the pho
+//       }
+  
 //     }
 //   }
 
@@ -51,6 +79,7 @@ setDefaultPage();
 // }
 // setTimeout(() => {
 //     $("#splash").hide();
+<<<<<<< HEAD
 // }, 1500);
 
 // Navigation inside profile
@@ -194,3 +223,6 @@ setTimeout(() => {
     $("#splash").hide();
 }, 1500);
 */
+=======
+// }, 1500);
+>>>>>>> parent of 485fe6a... Profile pag navigation
