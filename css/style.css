@@ -50,6 +50,7 @@ body {
 
 a {
     text-decoration: none;
+
 }
 
 ul {
@@ -251,8 +252,8 @@ main {
 }
 
 /* styling for navigation in the profile */
-
-.profile-nav {
+/*
+#profile-nav {
   display: flex;
   margin-top: 1em;
   justify-content: space-around;
@@ -261,29 +262,46 @@ main {
 
 }
 
-.profile-nav>div {
+#profile-nav li {
   display: flex;
 }
 
-.profile-nav>div> h2 {
-padding-left: 2em;
+#profile-nav h2 {
+  padding-left: 1.7em;
 }
 
-.profile-nav>div>img {
-  width: 8%;
 
+#profile-nav a {
+  display: flex;
+  justify-content: flex-start;
+  border-right: 1px solid black;
+  width: 30%;
 }
 
-.profile-nav>div>h2 {
+
+
+
+
+
+#profile-nav h2 {
   font-size: 1em;
   text-align: center;
 }
 
-.profile-nav>div {
-  width: 30%;
-  border-right: 1px solid black;
+.activeNav {
+  background-color: #e5e5e5;
+  border-bottom: 5px solid #006c3a;
+
 }
 
-.settings {
+
+
+#settings {
   border-right: none !important;
+}
+*/
+
+#profile-nav img {
+    max-width: 20px!important;
+
 }
