@@ -2,7 +2,9 @@
 
 M.AutoInit();
 //var instance = M.Tabs.init(el, options);
-
+const _db = firebase.firestore();
+const _dataRef = _db.collection("sustainabilityData");
+let _sustainabilityData;
 
 // Navigation
 let hideAllPages = () => {
