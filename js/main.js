@@ -89,6 +89,18 @@ function setActiveTabNav(pageId) {
     }
   }
 
+  function setActiveTab(pageId) {
+      let pages = document.querySelectorAll("nav a");
+      for (let page of pages) {
+        if (`#${pageId}` === page.getAttribute("href")) {
+          page.classList.add("active");
+        } else {
+          page.classList.remove("active");
+        }
+
+      }
+    }
+
   hideAllNavPages();
 
 
@@ -167,19 +179,9 @@ function setActiveTabNav(pageId) {
 
 
   });
-  }
-function setActiveTab(pageId) {
-    let pages = document.querySelectorAll("nav a");
-    for (let page of pages) {
-      if (`#${pageId}` === page.getAttribute("href")) {
-        page.classList.add("active");
-      } else {
-        page.classList.remove("active");
-      }
+}
 
-    }
-  }
-
+/*
 let showLoader = (duration) => {
     $("#splash").show();
     setTimeout(function () {
@@ -189,3 +191,4 @@ let showLoader = (duration) => {
 setTimeout(() => {
     $("#splash").hide();
 }, 1500);
+*/
